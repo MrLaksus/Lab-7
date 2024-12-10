@@ -26,7 +26,7 @@ public class EmailService {
         try {
             MimeMessage message = mailSender.createMimeMessage();
             MimeMessageHelper helper = new MimeMessageHelper(message, true);
-            helper.setFrom("infinitymod2005@gmail.com");
+            helper.setFrom("");
             helper.setTo(to);
             helper.setSubject(subject);
             helper.setText(text);
